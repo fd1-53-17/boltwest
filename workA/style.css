@@ -1,0 +1,65 @@
+.triangleTop {
+    border-top: 25px solid red;
+  border-bottom: 25px solid rgba(255,255,0,0);
+  border-right: 25px solid rgba(255,255,0,0);
+  border-left: 25px solid rgba(255,255,0,0);
+  width: 0px;
+  height: 0px;
+ 
+}
+
+.triangleRight {
+    border-top: 25px solid rgba(255,255,0,0);
+  border-bottom: 25px solid rgba(255,255,0,0);
+  border-right: 25px solid rgba(0,0,255,1);
+  border-left: 25px solid rgba(255,255,0,0);
+  width: 0px;
+  height: 0px;
+ 
+}
+
+.triangleBottom {
+    border-top: 25px solid rgba(255,255,0,0);
+  border-bottom: 25px solid rgba(0,255,0,1);
+  border-right: 25px solid rgba(255,255,0,0);
+  border-left: 25px solid rgba(0,255,0,0);
+  width: 0px;
+  height: 0px;
+ 
+}
+
+.triangleLeft {
+    border-top: 25px solid rgba(255,255,0,0);
+  border-bottom: 25px solid rgba(255,255,0,0);
+  border-right: 25px solid rgba(255,255,0,0);
+  border-left: 25px solid rgba(255,255,0,1);
+  width: 0px;
+  height: 0px;
+ 
+}
+
+.circle {
+    border-top: 25px solid rgba(255,0,0,1);
+  border-bottom: 25px solid rgba(0,255,0,1);
+  border-right: 25px solid rgba(0,0,255,1);
+  border-left: 25px solid rgba(255,255,0,1);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  width: 0px;
+  height: 0px;
+ 
+}
+
+.disc {
+    border-top: 25px solid rgba(255,0,0,1);
+  border-bottom: 25px solid rgba(0,255,0,1);
+  border-right: 25px solid rgba(0,0,255,1);
+  border-left: 25px solid rgba(255,255,0,1);
+  border-radius: 50%;
+ width: 0px;
+  height: 0px;
+ 
+}
