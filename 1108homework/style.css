@@ -1,0 +1,24 @@
+.p1 {
+    height: 100px;
+    width: 100px;
+    border: solid 10px red;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.p2 {
+    height: 100px;
+    width: 100px;
+    border: solid 10px red;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.moon {
+    height: 100px;
+    width: 100px;
+    border: solid 10px red;
+    border-radius: 50%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+}
