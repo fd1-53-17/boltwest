@@ -1,0 +1,22 @@
+.cardTriple {
+    height: 188px;
+    width: 140px;
+    background-image: url("cards2.png");
+    background-position: -289px -194px;
+}
+
+.cardSeven {
+    height: 188px;
+    width: 140px;
+    margin-top: 8px;
+    background-image: url("cards2.png");
+    background-position: -145px -970px;
+}
+
+.cardAce {
+    height: 188px;
+    width: 140px;
+    margin-top: 8px;
+    background-image: url("cards2.png");
+    background-position: -433px -2328px;
+}
