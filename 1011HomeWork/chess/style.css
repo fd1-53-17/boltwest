@@ -1,0 +1,126 @@
+table {
+    border-collapse: collapse
+}
+
+div {
+    text-align: center;
+    font-size: 30px;
+    height: 7vw;
+    width: 7vw;
+}
+
+.bg {
+    background-color: gray;
+}
+
+.sting2 .cell2 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 41% 2%;
+}
+
+.sting2 .cell9 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 41% 2%;
+}
+
+.sting9 .cell2 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 41% 100%;
+}
+
+.sting9 .cell9 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 41% 100%;
+}
+
+.sting2 .cell3 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 82% 2%;
+}
+
+.sting2 .cell8 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 82% 2%;
+}
+
+.sting9 .cell3 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 82% 100%;
+}
+
+.sting9 .cell8 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 82% 100%;
+}
+
+.sting2 .cell4 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 61% 2%;
+}
+
+.sting2 .cell7 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 61% 2%;
+}
+
+.sting9 .cell4 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 61% 100%;
+}
+
+.sting9 .cell7 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 61% 100%;
+}
+
+.sting2 .cell5 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 19% 2%;
+}
+
+.sting2 .cell6 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-repeat: no-repeat;
+    background-position: -1% 2%;
+}
+
+.sting9 .cell5 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-position: 20% 100%;
+}
+
+.sting9 .cell6 {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-repeat: no-repeat;
+    background-position: -1% 100%;
+}
+
+.pawnDark {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-repeat: no-repeat;
+    background-position: 103% 2%;
+}
+
+.pawnLight {
+    background-image: url(chess.png);
+    background-size: auto 15vw;
+    background-repeat: no-repeat;
+    background-position: 103% 100%;
+}

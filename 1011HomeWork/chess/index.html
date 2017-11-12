@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>chess</title>
+</head>
+<body>
+    <table border=1>
+        <caption>Шахматная доска</caption>
+        <tr class="sting1">
+            <td>
+                <div class="cell1"></div>
+            </td>
+            <td>
+                <div class="cell2">A</div>
+            </td>
+            <td>
+                <div class="cell3">B</div>
+            </td>
+            <td>
+                <div class="cell4">C</div>
+            </td>
+            <td>
+                <div class="cell5">D</div>
+            </td>
+            <td>
+                <div class="cell6">E</div>
+            </td>
+            <td>
+                <div class="cell7">F</div>
+            </td>
+            <td>
+                <div class="cell8">G</div>
+            </td>
+            <td>
+                <div class="cell9">H</div>
+            </td>
+            <td>
+                <div class="cell10"></div>
+            </td>
+        </tr>
+        <tr class="sting2">
+            <td>
+                <div class="cell1">1</div>
+            </td>
+            <td>
+                <div class="cell2"></div>
+            </td>
+            <td class="bg">
+                <div class="cell3"></div>
+            </td>
+            <td>
+                <div class="cell4"></div>
+            </td>
+            <td class="bg">
+                <div class="cell5"></div>
+            </td>
+            <td>
+                <div class="cell6"></div>
+            </td>
+            <td class="bg">
+                <div class="cell7"></div>
+            </td>
+            <td>
+                <div class="cell8"></div>
+            </td>
+            <td class="bg">
+                <div class="cell9"></div>
+            </td>
+            <td>
+                <div class="cell10">1</div>
+            </td>
+        </tr>
+        <tr class="sting3">
+            <td>
+                <div class="cell1">2</div>
+            </td>
+            <td class="bg">
+                <div class="cell2 pawnDark"></div>
+            </td>
+            <td>
+                <div class="cell3 pawnDark"></div>
+            </td>
+            <td class="bg">
+                <div class="cell4 pawnDark"></div>
+            </td>
+            <td>
+                <div class="cell5 pawnDark"></div>
+            </td>
+            <td class="bg">
+                <div class="cell6 pawnDark"></div>
+            </td>
+            <td>
+                <div class="cell7 pawnDark"></div>
+            </td>
+            <td class="bg">
+                <div class="cell8 pawnDark"></div>
+            </td>
+            <td>
+                <div class="cell9 pawnDark"></div>
+            </td>
+            <td>
+                <div class="cell10">2</div>
+            </td>
+        </tr>
+        <tr class="sting4">
+            <td>
+                <div class="cell1">3</div>
+            </td>
+            <td>
+                <div class="cell2"></div>
+            </td>
+            <td class="bg">
+                <div class="cell3"></div>
+            </td>
+            <td>
+                <div class="cell4"></div>
+            </td>
+            <td class="bg">
+                <div class="cell5"></div>
+            </td>
+            <td>
+                <div class="cell6"></div>
+            </td>
+            <td class="bg">
+                <div class="cell7"></div>
+            </td>
+            <td>
+                <div class="cell8"></div>
+            </td>
+            <td class="bg">
+                <div class="cell9"></div>
+            </td>
+            <td>
+                <div class="cell10">3</div>
+            </td>
+        </tr>
+        <tr class="sting5">
+            <td>
+                <div class="cell1">4</div>
+            </td>
+            <td class="bg">
+                <div class="cell2"></div>
+            </td>
+            <td>
+                <div class="cell3"></div>
+            </td>
+            <td class="bg">
+                <div class="cell4"></div>
+            </td>
+            <td>
+                <div class="cell5"></div>
+            </td>
+            <td class="bg">
+                <div class="cell6"></div>
+            </td>
+            <td>
+                <div class="cell7"></div>
+            </td>
+            <td class="bg">
+                <div class="cell8"></div>
+            </td>
+            <td>
+                <div class="cell9"></div>
+            </td>
+            <td>
+                <div class="cell10">4</div>
+            </td>
+        </tr>
+        <tr class="sting6">
+            <td>
+                <div class="cell1">5</div>
+            </td>
+            <td>
+                <div class="cell2"></div>
+            </td>
+            <td class="bg">
+                <div class="cell3"></div>
+            </td>
+            <td>
+                <div class="cell4"></div>
+            </td>
+            <td class="bg">
+                <div class="cell5"></div>
+            </td>
+            <td>
+                <div class="cell6"></div>
+            </td>
+            <td class="bg">
+                <div class="cell7"></div>
+            </td>
+            <td>
+                <div class="cell8"></div>
+            </td>
+            <td class="bg">
+                <div class="cell9"></div>
+            </td>
+            <td>
+                <div class="cell10">5</div>
+            </td>
+        </tr>
+        <tr class="sting7">
+            <td>
+                <div class="cell1">6</div>
+            </td>
+            <td class="bg">
+                <div class="cell2"></div>
+            </td>
+            <td>
+                <div class="cell3"></div>
+            </td>
+            <td class="bg">
+                <div class="cell4"></div>
+            </td>
+            <td>
+                <div class="cell5"></div>
+            </td>
+            <td class="bg">
+                <div class="cell6"></div>
+            </td>
+            <td>
+                <div class="cell7"></div>
+            </td>
+            <td class="bg">
+                <div class="cell8"></div>
+            </td>
+            <td>
+                <div class="cell9"></div>
+            </td>
+            <td>
+                <div class="cell10">6</div>
+            </td>
+        </tr>
+        <tr class="sting8">
+            <td>
+                <div class="cell1">7</div>
+            </td>
+            <td>
+                <div class="cell2 pawnLight"></div>
+            </td>
+            <td class="bg">
+                <div class="cell3 pawnLight"></div>
+            </td>
+            <td>
+                <div class="cell4 pawnLight"></div>
+            </td>
+            <td class="bg">
+                <div class="cell5 pawnLight"></div>
+            </td>
+            <td>
+                <div class="cell6 pawnLight"></div>
+            </td>
+            <td class="bg">
+                <div class="cell7 pawnLight"></div>
+            </td>
+            <td>
+                <div class="cell8 pawnLight"></div>
+            </td>
+            <td class="bg">
+                <div class="cell9 pawnLight"></div>
+            </td>
+            <td>
+                <div class="cell10">7</div>
+            </td>
+        </tr>
+        <tr class="sting9">
+            <td>
+                <div class="cell1">8</div>
+            </td>
+            <td class="bg">
+                <div class="cell2"></div>
+            </td>
+            <td>
+                <div class="cell3"></div>
+            </td>
+            <td class="bg">
+                <div class="cell4"></div>
+            </td>
+            <td>
+                <div class="cell5"></div>
+            </td>
+            <td class="bg">
+                <div class="cell6"></div>
+            </td>
+            <td>
+                <div class="cell7"></div>
+            </td>
+            <td class="bg">
+                <div class="cell8"></div>
+            </td>
+            <td>
+                <div class="cell9"></div>
+            </td>
+            <td>
+                <div class="cell10">8</div>
+            </td>
+        </tr>
+        <tr class="sting10">
+            <td>
+                <div class="cell1"></div>
+            </td>
+            <td>
+                <div class="cell2">A</div>
+            </td>
+            <td>
+                <div class="cell3">B</div>
+            </td>
+            <td>
+                <div class="cell4">C</div>
+            </td>
+            <td>
+                <div class="cell5">D</div>
+            </td>
+            <td>
+                <div class="cell6">E</div>
+            </td>
+            <td>
+                <div class="cell7">F</div>
+            </td>
+            <td>
+                <div class="cell8">G</div>
+            </td>
+            <td>
+                <div class="cell9">H</div>
+            </td>
+            <td>
+                <div class="cell10"></div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
