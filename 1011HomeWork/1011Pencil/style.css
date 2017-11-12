@@ -1,0 +1,86 @@
+main {
+  height: 100vh; /* обязательно нужно указывать высоту, т.к. при пустом документе будет не верно отображаться */
+  background:  repeating-linear-gradient(to top, #2F4F4F 0, #2F4F4F 1px, transparent 1px, transparent 10vw),
+               repeating-linear-gradient(to right, #2F4F4F 0, #2F4F4F 1px, transparent 1px, transparent 10vw);
+}
+
+.bodyPen1 {
+    height: 36px;
+    width:75vw;
+    margin: 10px 0px;
+    background: linear-gradient(#b20000, #fe0000 65%, #b20000);
+    padding-right: 1px;
+}
+
+.heel1 {
+    height: 28px;
+    width: 45px;
+    margin-right: -4px;
+    margin-left: 15px;
+    background-color: #dfdfdf;
+    border: solid #dfdfdf 4px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.nose1 {
+    height: 0px;
+    width: 0px;
+    margin-left:-6px;
+    border: solid 18px yellow;
+    border-left-width: 63px;
+    border-right-width: 0px;
+    border-color: rgba(0,0,0,0)  rgba(0,0,0,0) rgba(0,0,0,0) rgba(255,212,0,1);
+}
+
+.nose1End {
+     height: 0px;
+    width: 0px;
+    margin-left:-26px;
+    border: solid 6px yellow;
+    border-left-width: 21px;
+    border-right-width: 0px;
+    border-color: rgba(0,0,0,0)  rgba(0,0,0,0) rgba(0,0,0,0) rgba(255,0,0,1)
+}
+
+.nose2End {
+    height: 0px;
+    width: 0px;
+    margin-left: 12px;
+    margin-top: -39px;
+    border: solid 6px yellow;
+    border-bottom-width: 21px;
+    border-top-width: 0px;
+    border-color: rgba(0,0,0,0)  rgba(0,0,0,0) rgba(0,0,200,1) rgba(0,0,0,0);
+}
+
+.nose2 {
+    height: 0px;
+    width: 0px;
+    margin-bottom:-29px;
+    border: solid 18px yellow;
+    border-bottom-width: 63px;
+    border-top-width: 0px;
+    border-color: rgba(0,0,0,0)  rgba(0,0,0,0) rgba(255,212,0,1) rgba(0,0,0,0);
+}
+
+.bodyPen2 {
+    width:36px;
+    height: 68vh;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #0080ff 0%, #0080ff 25%, #3d9eff 25%, #3d9eff 75%, #1a8cff 75%, #1a8cff 100%);
+}
+
+.heel2 {
+    height: 45px;
+    width: 28px;
+    margin-top: -4px;
+    background-color: #dfdfdf;
+    border: solid #dfdfdf 4px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.pen2 {
+    margin-left: 15px;
+}

@@ -1,0 +1,53 @@
+.frameTopLeft {
+    height:95px;
+    width:95px;
+    background-image: url("ramka1.png");
+    background-size: cover;
+}
+
+.frameTopCenter {
+    height:37px;
+    background-image: url("ramkaTop.png");
+    background-size: contain;
+    margin: -47px -4px 0px;
+}
+
+.frameTopRight {
+    height:95px;
+    width:95px;
+    background-image: url("ramka2.png");
+}
+
+.frameCenterLeft {
+    height: 100px;
+    background: url("ramkaLeft.png");
+    background-repeat: repeat-y;
+    margin: -4px 0px;
+}
+
+.frameCenterCenter {
+    
+}
+
+.frameCenterRight {
+    
+}
+
+.frameBottomLeft {
+    height:95px;
+    width:95px;
+    background-image: url("ramka4.png");
+}
+
+.frameBottomCenter {
+    height:37px;
+    background-image: url("ramkaTop.png");
+    background-size: contain;
+    margin: 59px -4px 0px;
+}
+
+.frameBottomRight {
+    height:95px;
+    width:95px;
+    background-image: url("ramka3.png");
+}
