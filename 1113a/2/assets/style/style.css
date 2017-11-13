@@ -1,0 +1,17 @@
+.row {
+    clear: left;
+    width: 30px;
+}
+
+.row>div {
+    width: 10px;
+    display: inline-block;
+}
+
+.fRight {
+    float: right;
+}
+
+.fLeft {
+    float: left;
+}
