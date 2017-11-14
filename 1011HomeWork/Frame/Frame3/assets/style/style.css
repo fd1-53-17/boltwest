@@ -1,0 +1,37 @@
+.frameTopLeft {
+    height: 95px;
+    width: 95px;
+    background-image: url(../images/ramka1.png);
+}
+.frameTopCenter {
+    background-image: url(../images/ramkaTop.png);
+    background-repeat: repeat-x;
+}
+.frameTopRight {
+    width: 95px;
+    background-image: url(../images/ramka2.png);
+}
+.frameCenterRight {
+    background-image: url(../images/ramkaLeft.png);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.frameBolttomRight {
+    height: 95px;
+    background-image: url(../images/ramka3.png);
+}
+.frameBottomCenter {
+    background-image: url(../images/ramkaTop.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.frameBottomLeft {
+    background-image: url(../images/ramka4.png);
+}
+.frameCenterLeft {
+    background-image: url(../images/ramkaLeft.png);
+    background-repeat: repeat-y;
+}
+.frameCenterCenter>div {
+    margin:-45px;
+}
