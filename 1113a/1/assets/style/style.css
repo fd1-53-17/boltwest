@@ -1,0 +1,28 @@
+.row {
+    clear: left;
+    width: 30px;
+}
+
+.row>div {
+    width: 10px
+}
+
+.fRight {
+    float: right;
+}
+
+.fLeft {
+    float: left;
+}
+
+.margL {
+    margin-left: 10px;
+}
+
+.margR {
+    margin-right: 20px;
+}
+
+.margt-18 {
+    margin-top: -18px;
+}
