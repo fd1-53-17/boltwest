@@ -1,0 +1,154 @@
+.cel {
+    height:9vmin;
+    width:9vmin;
+    border-top:solid 1px black;
+    border-left:solid 1px black;
+}
+
+.col {
+    float: left;
+}
+
+.col>:last-child {
+    border-bottom:solid 1px black;
+}
+
+.column10>.cel {
+    border-right:solid 1px black;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1.6vmin;
+}
+
+.bg {
+    background-color: gray;
+}
+
+.column6>.cell2 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: -1.5% -3%;
+    background-repeat: no-repeat;
+}
+
+.column6>.cell9 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: -1.5% 101%;
+    background-repeat: no-repeat;
+}
+
+.column5>.cell2 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 19% -3%;
+    background-repeat: no-repeat;
+}
+
+.column5>.cell9 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 19% 101%;
+    background-repeat: no-repeat;
+}
+
+.column4>.cell2 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 61.5% -3%;
+    background-repeat: no-repeat;
+}
+
+.column4>.cell9 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 61.5% 101%;
+    background-repeat: no-repeat;
+}
+
+.column7>.cell2 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 61.5% -3%;
+    background-repeat: no-repeat;
+}
+
+.column7>.cell9 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 61.5% 101%;
+    background-repeat: no-repeat;
+}
+
+.column3>.cell2 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 83% -3%;
+    background-repeat: no-repeat;
+}
+
+.column3>.cell9 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 83% 101%;
+    background-repeat: no-repeat;
+}
+
+.column8>.cell2 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 83% -3%;
+    background-repeat: no-repeat;
+}
+
+.column8>.cell9 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 83% 101%;
+    background-repeat: no-repeat;
+}
+
+.column9>.cell2 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 41% -3%;
+    background-repeat: no-repeat;
+}
+
+.column9>.cell9 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 41% 101%;
+    background-repeat: no-repeat;
+}
+
+.column2>.cell2 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 41% -3%;
+    background-repeat: no-repeat;
+}
+
+.column2>.cell9 {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 41% 101%;
+    background-repeat: no-repeat;
+}
+
+.black {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 104% -3%;
+    background-repeat: no-repeat;
+}
+
+.white {
+    background-image: url(../images/chess.png);
+    background-size: auto 18vmin;
+    background-position: 104% 101%;
+    background-repeat: no-repeat;
+}

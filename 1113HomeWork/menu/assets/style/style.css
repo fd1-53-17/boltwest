@@ -1,0 +1,47 @@
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+    
+}
+
+.menu {
+    width: 400px;
+    border:solid 1px gray;
+    text-align: right;
+   
+    
+}
+
+.list>li {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    
+}
+
+.list>li>div {
+    margin-top: 20%;
+}
+
+.string {
+    width: 80px;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    color: gray;
+}
+
+.li2 {
+    background-color: rgb(220,220,220);
+}
+
+.list>li>div {
+    color: white;
+}
+
+.li1 {
+    background-color: rgb(190,50,50)
+    
+}
