@@ -1,0 +1,101 @@
+.wrapper {
+    width: 820px;
+    margin:0 auto;
+}
+.bg {
+    background-color: #777777;
+}
+.bgL {
+    background-color: #dcdcdc;
+}
+.headerText1 {
+    width: 105px;
+    height: 93px;
+    float: left;
+    }
+.headerText2 {
+    width: 239px;
+    height: 93px;
+    margin-left: calc(18px + 105px);
+}
+.headerText3 {
+    width: 439px;
+    height: 93px;
+    float: right;
+    margin-top: -93px;
+}
+.as1 {
+    height: 287px;
+    width:158px;
+}
+.as2 {
+    height: 115px;
+    width:158px;
+    margin-top: 259px;
+}
+.art1 {
+    width: 647px;
+    height: 180px;
+}
+ul {
+    display: block;
+    padding: 0px;
+    margin: 10px 0px;
+}
+ul>li {
+    width: 115px;
+    height: 130px;
+    display: inline-block;
+    background-color: #dcdcdc;
+    margin:5.6px;
+}
+article {
+    width: 647px;
+    float: right
+}
+aside {
+    width: 158px;
+    float: left;
+}
+.art2 {
+    width: 314px;
+    height: 171px;
+    float: left;
+}
+.art3 {
+    width: 314px;
+    height: 171px;
+    float: left;
+    margin-left: 14px;
+ }
+main>hr {
+    clear: both;
+    margin-top: 8px;
+    float: left;
+    width: 820px;
+}
+footer div {
+    float: left
+}
+footer {
+    float: left
+}
+.foot1 {
+    height: 154px;
+    width: 254px;
+}
+.foot2 {
+    height: 154px;
+    width: 254px;
+    margin-left: 23px;
+}
+.foot3 {
+    height: 64px;
+    width: 264px;
+    margin-left: 23px;
+}
+.foot4 {
+    height: 64px;
+    width: 264px;
+    margin: 24px 0px 0px 23px;
+}
