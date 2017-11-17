@@ -1,0 +1,119 @@
+.wrapper {
+    width: 820px;
+    margin:0 auto;
+}
+.bg {
+    background-color: #777777;
+}
+.bgL {
+    background-color: #dcdcdc;
+}
+header {
+    position: relative;
+    padding-top: 93px;
+}
+.headerText1 {
+    width: 105px;
+    height: 93px;
+    position: absolute;
+    top: 0;
+    }
+.headerText2 {
+    width: 239px;
+    height: 93px;
+    position: absolute;
+    left: 123px;
+    top: 0;
+    }
+.headerText3 {
+    width: 439px;
+    height: 93px;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+main {
+    position: relative;
+    padding-top: 660px;
+    
+}
+aside {
+    width: 158px;
+    position: absolute;
+    top: 0;
+    padding-top: 660px;
+}
+.as1 {
+    height: 287px;
+    width:158px;
+    position: absolute;
+    top: 0;
+}
+.as2 {
+    height: 115px;
+    width:158px;
+    position: absolute;
+    bottom: 0;
+}
+article {
+    width: 647px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.art1 {
+    width: 647px;
+    height: 180px;
+    }
+ul {
+    display: block;
+    padding: 0px;
+    margin: 10px 0px;
+}
+ul>li {
+    width: 115px;
+    height: 130px;
+    display: inline-block;
+    background-color: #dcdcdc;
+    margin:5.6px;
+}
+.art2 {
+    width: 314px;
+    height: 171px;
+    }
+.art3 {
+    width: 314px;
+    height: 171px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+footer {
+    position: relative;
+}
+.foot1 {
+    height: 154px;
+    width: 254px;
+}
+.foot2 {
+    height: 154px;
+    width: 254px;
+    position: absolute;
+    top: 0;
+    left: 278px;
+}
+.foot3 {
+    height: 64px;
+    width: 264px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.foot4 {
+    height: 64px;
+    width: 264px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
