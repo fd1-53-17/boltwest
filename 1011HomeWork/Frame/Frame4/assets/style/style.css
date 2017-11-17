@@ -1,0 +1,33 @@
+.frameTopLeft {
+    height: 95px;
+    width: 95px;
+    background-image: url(../images/ramka1.png);
+}
+.frameTopCenter {
+    background:linear-gradient(to bottom, black 0px, black 5px, white 5px, white 9px, black 9px, black 14px, white 14px, white 22px, black 22px, black 27px, white 27px, white 32px, black 32px, black 37px, transparent 37px, transparent 95px);
+}
+.frameTopRight {
+    width: 95px;
+    background-image: url(../images/ramka2.png);
+}
+.frameCenterRight {
+    background:linear-gradient(to left, black 0px, black 5px, white 5px, white 9px, black 9px, black 14px, white 14px, white 22px, black 22px, black 27px, white 27px, white 32px, black 32px, black 37px, transparent 37px, transparent 95px);
+}
+.frameBolttomRight {
+    height: 95px;
+    background-image: url(../images/ramka3.png);
+}
+.frameBottomCenter {
+        background:linear-gradient(to top, black 0px, black 5px, white 5px, white 9px, black 9px, black 14px, white 14px, white 22px, black 22px, black 27px, white 27px, white 32px, black 32px, black 37px, transparent 37px, transparent 95px);
+
+}
+.frameBottomLeft {
+    background-image: url(../images/ramka4.png);
+}
+.frameCenterLeft {
+        background:linear-gradient(to right, black 0px, black 5px, white 5px, white 9px, black 9px, black 14px, white 14px, white 22px, black 22px, black 27px, white 27px, white 32px, black 32px, black 37px, transparent 37px, transparent 95px);
+
+}
+.frameCenterCenter>div {
+    margin:-45px;
+}

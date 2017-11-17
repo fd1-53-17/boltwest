@@ -1,0 +1,31 @@
+table tr td {
+    background-size: contain;
+}
+.frameTopLeft {
+    height: 95px;
+    width: 95px;
+    background-image: url(../images/ramka1.png);
+}
+.frameTopCenter {
+    background: url(../images/ramkaTf.png) repeat-x;
+}
+.frameTopRight {
+    width: 95px;
+    background: url(../images/ramka2.png);
+}
+.frameCenterRight {
+    background: url(../images/ramkaLf.png) repeat-y right;
+}
+.frameBolttomRight {
+    height: 95px;
+    background: url(../images/ramka3.png);
+}
+.frameBottomCenter {
+    background: url(../images/ramkaTf.png) repeat-x bottom;
+}
+.frameBottomLeft {
+     background: url(../images/ramka4.png);
+}
+.frameCenterLeft {
+    background: url(../images/ramkaLf.png) repeat-y;
+}
