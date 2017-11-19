@@ -1,0 +1,25 @@
+div {
+    height:194px;
+    width: 143px;
+}
+.card1 {
+    background: url("../images/cards2.png") no-repeat -143px -194px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+.card2 {
+    background: url("../images/cards2.png") no-repeat -286px -970px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    z-index: 2;
+}
+.card3 {
+    background: url("../images/cards2.png") no-repeat -429px -2328px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
