@@ -1,0 +1,121 @@
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: calc(90vmin + 10px);
+}
+.wrapper>div {
+    position: relative;
+}
+.wrapper>div>div {
+    height: 9vmin;
+    width: 9vmin;
+    border-top: solid 1px black;
+    border-left: black solid 1px;
+    text-align: center;
+}
+.wrapper>div>div>div {
+    font-size: 40px;
+    margin-top: 18%;
+}
+.cell2 {
+    position: absolute;
+    top:0;
+    left: 9vmin;
+}
+.cell3 {
+    position: absolute;
+    top:0;
+    left: calc(9vmin * 2);
+}
+.cell4 {
+    position: absolute;
+    top:0;
+    left: calc(9vmin * 3);
+}
+.cell5 {
+    position: absolute;
+    top:0;
+    left: calc(9vmin * 4);
+}
+.cell6 {
+    position: absolute;
+    top:0;
+    left: calc(9vmin * 5);
+}
+.cell7 {
+    position: absolute;
+    top:0;
+    left: calc(9vmin * 6);
+}
+.cell8 {
+    position: absolute;
+    top:0;
+    left: calc(9vmin * 7);
+}
+.cell9 {
+    position: absolute;
+    top:0;
+    left: calc(9vmin * 8);
+}
+.cell10 {
+    position: absolute;
+    top:0;
+    left: calc(9vmin * 9);
+}
+.str10>div {
+    border-bottom: black solid 1px;
+}
+.wrapper>div>div:last-child {
+    border-right: black solid 1px;
+}
+.peshkaB {
+    background: url("../images/chess.png") no-repeat 105% -4%;
+    background-size: 55vmin;
+}
+.peshkaW {
+    background: url("../images/chess.png") no-repeat 105% 104%;
+    background-size: 55vmin;
+}
+.konB {
+    background: url("../images/chess.png") no-repeat 83% -4%;
+    background-size: 55vmin;
+}
+.konW {
+    background: url("../images/chess.png") no-repeat 83% 104%;
+    background-size: 55vmin;
+}
+.slonB {
+    background: url("../images/chess.png") no-repeat 62% -4%;
+    background-size: 55vmin;
+}
+.slonW {
+    background: url("../images/chess.png") no-repeat 62% 104%;
+    background-size: 55vmin;
+}
+.lodyaB {
+    background: url("../images/chess.png") no-repeat 41% -4%;
+    background-size: 55vmin;
+}
+.lodyaW {
+    background: url("../images/chess.png") no-repeat 41% 104%;
+    background-size: 55vmin;
+}
+.ferzB {
+    background: url("../images/chess.png") no-repeat -2% -4%;
+    background-size: 55vmin;
+}
+.ferzW {
+    background: url("../images/chess.png") no-repeat -2% 104%;
+    background-size: 55vmin;
+}
+.kingW {
+    background: url("../images/chess.png") no-repeat 20% 104%;
+    background-size: 55vmin;
+}
+.kingB {
+    background: url("../images/chess.png") no-repeat 20% -4%;
+    background-size: 55vmin;
+}
+.bg {
+    background-color: gray;
+}
