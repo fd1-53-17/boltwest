@@ -8,7 +8,7 @@
 }
 .header {
     text-align: center;
-    height: 40px;
+    height: 44px;
     padding-top: 4px;
     color: #0000ff;
     background-color: #add8e6;
@@ -26,8 +26,8 @@
     margin: 10px 0 0 5px;
 }
 .picture {
-    height: 84px;
-    width: 180px;
+    height: 133px;
+    width: 199px;
     float: left;
     margin: 6px 20px 15px 0;
 }
@@ -36,7 +36,7 @@
     margin-left: 10px;
     float: right;
     font-size: 20px;
-    background: url(../images/quadBg.png) right repeat-y;
+    background: url(../images/bgF.jpg) right repeat-y;
     }
 .content h4 {
     text-align: center;

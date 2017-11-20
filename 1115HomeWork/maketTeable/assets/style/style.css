@@ -17,7 +17,7 @@ h4 {
     color: #434068;
     background-color: #5ee2ff;
 }
-p {
+.menu>p {
     font-weight: bold;
     margin-left: 5px;
 }
@@ -34,7 +34,7 @@ ul>li {
 .picture {
     height: 12vw;
     width: 25vw;
-    background-image: url(../images/quad.jpg);
+    background-image: url(../images/pic.jpg);
     background-size: cover;
     float: left;
     margin: 6px 20px 15px 0;
@@ -43,11 +43,10 @@ ul>li {
     display: block;
     font-size: 22px;
     margin-left: 20px;
-    background-image: url(../images/quadBg.png);
+    background-image: url(../images/bgF.jpg);
     background-position: right top;
     background-repeat: repeat-y;
 }
 table {
     border-spacing: 0px;
-    background-color: #ccc;
 }
