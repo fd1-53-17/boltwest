@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("../fonts/untitled-font-1.ttf");
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+li:not(:first-child):before {
+    content: "|";
+    display: inline-block;
+    margin-right: 20px;
+}
+li:first-child:before {
+    content: "a";
+    font-family: "untitled-font-1";
+    margin-right: 10px;
+}
