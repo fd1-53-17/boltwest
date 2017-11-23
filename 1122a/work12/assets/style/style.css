@@ -1,0 +1,67 @@
+.main {
+    width: 380px;
+    padding: 13px 30px;
+    background-color: #e3e3e1;
+}
+.header {
+    height: 52px;
+    color: white;
+    background-color: #999999;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 40px;
+    padding: 7px 0 0 30px;
+}
+ul {
+    list-style-type: none;
+    font: 18px sans-serif;
+    width: 180px;
+    padding: 0;
+}
+ul>li {
+    height: 26px;
+    padding-top: 4px;
+}
+.list1>li>span, .list2>li>div {
+    font-family: "untitled-font-1";
+}
+ul>li:not(:first-child) {
+    border-top: 1px solid #cfcfcd;
+    color: #695f7f;
+}
+.list1>li:nth-of-type(2) {
+    color: #62446e;
+}
+.list2>li:nth-of-type(2), .list3>li:nth-of-type(2), .list4>li:nth-of-type(2) {
+    background-color: #a27eae;
+    height: 20px;
+    border: 3px solid #a27eae;
+    border-radius: 4px;
+    color: white;
+    padding-top: 4px;
+}
+.list1 {
+    float: left;
+    height: 185px;
+}
+.list2 {
+    float: right;
+    height: 185px;
+}
+.list3 {
+    float: left;
+}
+.list4 {
+    float: right;
+}
+.main::after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.list2>li>div {
+    width: 20px;
+    float: right;
+    margin-right: 15px;
+}
