@@ -1,0 +1,86 @@
+.main {
+    width: 200px;
+    margin: 50px auto;
+}
+.folder1 {
+    width: 200px;
+    height: 120px;
+    background-color: #cfa448;
+    border: 0 solid;
+    border-radius: 8px;
+    position: relative;
+}
+.folder2 {
+    width: 67px;
+    height: 20px;
+    background-color: #cfa448;
+    border: 0 solid;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    position: absolute;
+    top: -9px;
+    left: 0;
+}
+.lis {
+    width: 150px;
+    height: 102px;
+    background-color: #e4e7e8;
+    border: 1px solid #f6f7f7;
+    border-radius: 4px;
+    position: absolute;
+    top: 24px;
+    left: 26px;
+}
+.disc {
+    width: 0;
+    border: 3px solid;
+    border-radius: 50%;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.block {
+    width: 7px;
+    height: 2px;
+    background-color: #a5a7a7;
+    float: right;
+    clear: right;
+    margin: 2px 4px 0 0;
+    position: relative;
+    top: 2px;
+}
+.elem1 {
+    border-color: red;
+}
+.elem2 {
+    border-color: yellow;
+}
+.elem3 {
+    border-color: green;
+}
+.list1 {
+    z-index: 1;
+}
+.list2 {
+    transform: scale(1.1) translate(0, 14px);
+    z-index: 2;
+}
+.list3 {
+    transform: scale(1.2) translate(0, 27px);
+    z-index: 3;
+}
+.folder3 {
+    width: 200px;
+    height: 120px;
+    background-color: #ffcd59;
+    border: 0 solid;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    top: 65px;
+    z-index: 4;
+}
+.main:hover .list3 {
+    transform: scale(1.2) translate(100px, 27px);
+    z-index: 3;
+}
