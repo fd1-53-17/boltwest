@@ -1,0 +1,42 @@
+.main {
+    width: 480px;
+    padding-bottom: 95px;
+    position: relative;
+}
+.box2>span {
+    font-family: "untitled-font-1";
+}
+.box1 {
+    width: 240px;
+    font: 20px sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.box3 {
+    border: 1px dashed red;
+    border-radius: 8px;
+    width: 109px;
+    height: 65px;
+    font: 21px sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 4px;
+    right: 10px;
+}
+.box2 {
+    width: 298px;
+    color: red;
+    font: 21px sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+.box3>span {
+    color: red;
+    font-size: 40px;
+}
