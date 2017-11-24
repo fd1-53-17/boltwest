@@ -1,0 +1,105 @@
+.main {
+    width: 508px;
+    margin: 20px auto;
+}
+.face1 {
+    width: 468px;
+    height: 468px;
+    border: 20px solid black;
+    border-radius: 50%;
+    position: relative;
+}
+.eye3 {
+    width: 300px;
+    height: 52.5px;
+    overflow: hidden;
+    position: absolute;
+    left: 84px;
+    top: 130px;
+}
+.eye1 {
+    width: 65px;
+    height: 65px;
+    border: 20px solid black;
+    border-radius: 50%;
+    float: left;
+}
+
+.eye2 {
+    width: 65px;
+    height: 65px;
+    border: 20px solid black;
+    border-radius: 50%;
+    float: right;
+}
+.eye4 {
+    height: 0;
+    width: 0px;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 84px;
+    top: 172px;
+}
+.eye5 {
+    height: 0;
+    width: 0px;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 169px;
+    top: 172px;
+}
+.eye6 {
+    height: 0;
+    width: 0px;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 279px;
+    top: 172px;
+}
+.eye7 {
+    height: 0;
+    width: 0px;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 364px;
+    top: 172px;
+}
+.smile1 {
+    width: 340px;
+    height: 170px;
+    overflow: hidden;
+    position: absolute;
+    top: 250px;
+    left: 64px;
+}
+.smile2 {
+    width: 300px;
+    height: 300px;
+    border: 20px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.smile3 {
+    height: 0;
+    width: 0px;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 384px;
+    top: 239px;
+}
+.smile4 {
+    height: 0;
+    width: 0px;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 64px;
+    top: 239px;
+}

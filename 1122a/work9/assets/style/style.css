@@ -1,0 +1,61 @@
+.main {
+    width: 300px;
+    margin: 0 auto;
+    
+}
+.header {
+    height: 37px;
+    color: white;
+    background-color: #007854;
+    text-align: center;
+    border-top: 5px solid #007854;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 25px;
+    padding-top: 3px;
+}
+.menu {
+    height: 38px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font: 25px sans-serif;
+    padding-top: 5px;
+    position: relative;
+}
+.treangle1 {
+    width: 0;
+    border: 12px solid transparent;
+    border-right: 12px solid #007854;
+    position: absolute;
+    left: 0;
+    top: 11px;
+}
+.treangle2 {
+    width: 0;
+    border: 12px solid transparent;
+    border-left: 12px solid #007854;
+    position: absolute;
+    right: 0;
+    top: 11px;
+}
+.numbers {
+    background-color: #e6e6e6;
+    color: #6f6e6c;
+    padding: 8px;
+}
+.numbers>div {
+    width: 32px;
+    height: 34px;
+    display: inline-block;
+    text-align: right;
+    font-size: 26px;
+    padding: 3px 5px 0 0;
+}
+.numbers>div:nth-of-type(4) {
+    color: white;
+    background-color: #007854;
+}
+.numbers>div:nth-of-type(-n+3) {
+    color: black;
+}

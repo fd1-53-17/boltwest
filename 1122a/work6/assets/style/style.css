@@ -1,0 +1,31 @@
+.main {
+    width: 360px;
+    height: 176px;
+    background-color: #bdbdbd;
+    margin: 40px auto;
+    position: relative;
+}
+.box1 {
+    width:0;
+    border: 35px solid transparent;
+    border-bottom: 35px solid #1d6319;
+    position: absolute;
+    bottom: 35px;
+    left: 40px;
+}
+.box3 {
+    width:0;
+    border: 35px solid transparent;
+    border-bottom: 35px solid #1d6319;
+    position: absolute;
+    bottom: 35px;
+    right: 40px;
+}
+.box2 {
+    width:0;
+    border: 53px solid transparent;
+    border-top: 105px solid #1d6319;
+    position: absolute;
+    top: 35px;
+    left: 120px;
+}
