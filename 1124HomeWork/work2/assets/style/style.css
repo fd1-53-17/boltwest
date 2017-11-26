@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+div {
+    width: 200px;
+    height: 50px;
+    margin: 50px;
+    position: relative;
+    background-color: gray;
+    background-image: linear-gradient(gray, #ccc 35%, gray);
+    border: 0 solid;
+    border-radius: 5px;
+    box-shadow: inset 5px 0 4px 0 #ccc;
+}
+div:hover {
+    box-shadow: inset 4px 0 4px 0 #f00;
+    transition: 0s 1.4s;
+}
+div::before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border: 15px solid #bf4040;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    box-shadow: 0 0 0 2px #8e2f2f;
+    transition: 2s 1.5s;
+}
+div:hover::before {
+    box-shadow: 0 0 0 2px #ff7575, 0 0 5px 5px #fcc;
+    border-color: #fff;
+    transition: 1s;
+}
+div::after {
+    content: "";
+    display: block;
+    z-index: -1;
+    height: 0;
+    width: 0;
+    border: 5px solid white;
+    border-radius: 5px;
+    position: absolute;
+    left: 190px;
+    top: 20px;
+    transition: width 1.5s linear, box-shadow 0s 1.5s;
+}
+div:hover::after {
+    box-shadow: 0 0 10px 10px #fff, 0 0 20px 20px red;
+    width: 800px;
+    transition: width .4s linear 1s, box-shadow 0s 1s;
+}
