@@ -1,0 +1,30 @@
+.main {
+    width: 40px;
+}
+.str>div {
+    width: 10px;
+    display: inline-block;
+    transition: all 2s;
+}
+.str {
+    position: relative;
+    
+}
+.main:hover>.str:nth-of-type(2)>div:nth-of-type(2), .main:hover>.str:nth-of-type(3)>div:nth-of-type(1),
+.main:hover>.str:nth-of-type(5)>div:nth-of-type(1), .main:hover>.str:nth-of-type(5)>div:nth-of-type(2) {
+   transform: translate(14px);
+   transition: all .5s;
+}
+.main:hover>.str:nth-of-type(2)>div:nth-of-type(3), .main:hover>.str:nth-of-type(3)>div:nth-of-type(2),
+.main:hover>.str:nth-of-type(4)>div:nth-of-type(3), .main:hover>.str:nth-of-type(4)>div:nth-of-type(2) {
+   transform: translate(-14px);
+   transition: all .5s;
+}
+.main:hover>.str:nth-of-type(4)>div:nth-of-type(1), .main:hover>.str:nth-of-type(6)>div:nth-of-type(1) {
+   transform: translate(28px);
+   transition: all .5s;
+}
+.main:hover>.str:nth-of-type(5)>div:nth-of-type(3), .main:hover>.str:nth-of-type(6)>div:nth-of-type(3) {
+   transform: translate(-28px);
+   transition: all .5s;
+}
