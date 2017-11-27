@@ -93,7 +93,8 @@
         width: 60%;
         margin: 2% 0 0 20% ;
         background-color: rgba(0, 0, 255, .3);
-        box-shadow: 0 0 2px;
+        -webkit-box-shadow: 0 0 2px;
+                box-shadow: 0 0 2px;
     }
     .content {
 
