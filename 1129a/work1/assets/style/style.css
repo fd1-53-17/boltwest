@@ -1,0 +1,11 @@
+form>div {
+    width: 75px;
+    display: inline-block;
+    margin-top: 10px;
+}
+input[type="text"], input[type="password"] {
+   display: inline-block;
+}
+input[type="submit"] {
+    margin: 10px 60px 0 79px;
+}

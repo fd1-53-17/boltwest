@@ -1,0 +1,7 @@
+input[type="radio"], label[for="ex2-red"], label[for="ex2-green"] {
+    display: none;
+    
+}
+input[type="checkbox"]:checked~input[type="radio"], input[type="checkbox"]:checked~label {
+    display: inline;
+}
