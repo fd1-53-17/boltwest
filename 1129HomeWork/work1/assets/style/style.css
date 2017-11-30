@@ -1,0 +1,49 @@
+#menu, #menu:checked+label[for=menu], #menu:not(:checked)~label[for=menu]:nth-of-type(2), #menu:not(:checked)~ul, ul ul {
+    display: none;
+}
+#menu~ul {
+    counter-reset: list1;
+    width: 80px;
+    border:1px solid green;
+    padding:0;
+    list-style-type: none;
+    position: relative;
+}
+#menu~ul>li:before {
+    counter-increment: list1;
+    content: counter(list1);
+    display: inline-block;
+    margin-left: 5px;
+    float: right;
+    margin-right: 13px;
+}
+#menu~ul>li:hover {
+    background-color: #0f0;
+}
+#menu~ul>li:hover:before {
+    content: counter(list1)" >";
+    margin-right: 0;
+}
+#menu~ul>li>ul {
+    counter-reset: list2;
+    padding:0;
+    margin: -19px 0 0 80px;
+    list-style-type: none;
+    border: 1px solid #00f;
+}
+#menu~ul>li>ul>li:after {
+    counter-increment: list2;
+    content: counter(list1) ". " counter(list2);
+}
+#menu~ul>li:hover ul {
+    display: block;
+    position: absolute;
+}
+#menu~ul>li>ul>li {
+    width: 70px;
+}
+#menu~ul>li>ul>li:hover {
+    background-color: dodgerblue;
+}
+
+
