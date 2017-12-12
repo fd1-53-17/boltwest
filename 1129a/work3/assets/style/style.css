@@ -1,0 +1,7 @@
+form>input[type="radio"], label[for="ex2-red"], label[for="ex2-green"] {
+    display: none;
+    
+}
+form>input[type="checkbox"]:checked~input[type="radio"], form>input[type="checkbox"]:checked~label {
+    display: inline;
+}
