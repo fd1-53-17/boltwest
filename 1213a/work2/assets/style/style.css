@@ -1,0 +1,23 @@
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.order1 {
+    -webkit-box-ordinal-group: 11;
+    -ms-flex-order: 10;
+    order: 10;
+}
+
+.order2 {
+    -webkit-box-ordinal-group: 21;
+    -ms-flex-order: 20;
+    order: 20;
+}
+
+.order3 {
+    -webkit-box-ordinal-group: 31;
+    -ms-flex-order: 30;
+    order: 30;
+}
