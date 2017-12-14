@@ -1,15 +1,21 @@
 .chessTable {
     width: 90vmin;
     margin: 5vmin auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     counter-reset: numb1 9 numb2 9;
+    -webkit-box-shadow: 0 0 0 2px;
     box-shadow: 0 0 0 2px;
 }
+
 .chessTable>div {
     width: calc(10% - 1px);
     height: calc(9vmin - 1px);
 }
+
 .chessTable>div:nth-of-type(10n+1):not(:nth-of-type(1)):not(:nth-of-type(91)):before {
     counter-increment: numb1 -1;
     content: counter(numb1);
@@ -17,6 +23,7 @@
     font: 5vmin sans-serif;
     margin-top: 20%;
 }
+
 .chessTable>div:nth-of-type(10n+10):not(:nth-of-type(10)):not(:nth-of-type(100)):before {
     counter-increment: numb2 -1;
     content: counter(numb2);
@@ -24,75 +31,101 @@
     font: 5vmin sans-serif;
     margin-top: 20%;
 }
-.chessTable>div:nth-of-type(10n+1), .chessTable>div:nth-of-type(10n+10) {
+
+.chessTable>div:nth-of-type(10n+1),
+.chessTable>div:nth-of-type(10n+10) {
     text-align: center;
 }
-.chessTable>div:nth-of-type(n+2):not(:nth-of-type(n+10)), .chessTable>div:nth-of-type(n+92):not(:nth-of-type(n+100)) {
+
+.chessTable>div:nth-of-type(n+2):not(:nth-of-type(n+10)),
+.chessTable>div:nth-of-type(n+92):not(:nth-of-type(n+100)) {
     text-align: center;
     width: 10%;
 }
-.chessTable>div:nth-of-type(2):after, .chessTable>div:nth-of-type(92):after {
+
+.chessTable>div:nth-of-type(2):after,
+.chessTable>div:nth-of-type(92):after {
     content: "a";
     display: block;
     font: 5vmin sans-serif;
     text-transform: uppercase;
     margin-top: 20%;
 }
-.chessTable>div:nth-of-type(3):after, .chessTable>div:nth-of-type(93):after {
+
+.chessTable>div:nth-of-type(3):after,
+.chessTable>div:nth-of-type(93):after {
     content: "b";
     display: block;
     font: 5vmin sans-serif;
     text-transform: uppercase;
     margin-top: 20%;
 }
-.chessTable>div:nth-of-type(4):after, .chessTable>div:nth-of-type(94):after {
+
+.chessTable>div:nth-of-type(4):after,
+.chessTable>div:nth-of-type(94):after {
     content: "c";
     display: block;
     font: 5vmin sans-serif;
     text-transform: uppercase;
     margin-top: 20%;
 }
-.chessTable>div:nth-of-type(5):after, .chessTable>div:nth-of-type(95):after {
+
+.chessTable>div:nth-of-type(5):after,
+.chessTable>div:nth-of-type(95):after {
     content: "d";
     display: block;
     font: 5vmin sans-serif;
     text-transform: uppercase;
     margin-top: 20%;
 }
-.chessTable>div:nth-of-type(6):after, .chessTable>div:nth-of-type(96):after {
+
+.chessTable>div:nth-of-type(6):after,
+.chessTable>div:nth-of-type(96):after {
     content: "e";
     display: block;
     font: 5vmin sans-serif;
     text-transform: uppercase;
     margin-top: 20%;
 }
-.chessTable>div:nth-of-type(7):after, .chessTable>div:nth-of-type(97):after {
+
+.chessTable>div:nth-of-type(7):after,
+.chessTable>div:nth-of-type(97):after {
     content: "f";
     display: block;
     font: 5vmin sans-serif;
     text-transform: uppercase;
     margin-top: 20%;
 }
-.chessTable>div:nth-of-type(8):after, .chessTable>div:nth-of-type(98):after {
+
+.chessTable>div:nth-of-type(8):after,
+.chessTable>div:nth-of-type(98):after {
     content: "g";
     display: block;
     font: 5vmin sans-serif;
     text-transform: uppercase;
     margin-top: 20%;
 }
-.chessTable>div:nth-of-type(9):after, .chessTable>div:nth-of-type(99):after {
+
+.chessTable>div:nth-of-type(9):after,
+.chessTable>div:nth-of-type(99):after {
     content: "h";
     display: block;
     font: 5vmin sans-serif;
     text-transform: uppercase;
     margin-top: 20%;
 }
-.chessTable>div:nth-of-type(20n+2):not(:nth-of-type(2)), .chessTable>div:nth-of-type(20n+13):not(:nth-of-type(93)),
-.chessTable>div:nth-of-type(20n+4):not(:nth-of-type(4)), .chessTable>div:nth-of-type(20n+15):not(:nth-of-type(95)),
-.chessTable>div:nth-of-type(20n+6):not(:nth-of-type(6)), .chessTable>div:nth-of-type(20n+17):not(:nth-of-type(97)),
-.chessTable>div:nth-of-type(20n+8):not(:nth-of-type(8)), .chessTable>div:nth-of-type(20n+19):not(:nth-of-type(99)){
+
+.chessTable>div:nth-of-type(20n+2):not(:nth-of-type(2)),
+.chessTable>div:nth-of-type(20n+13):not(:nth-of-type(93)),
+.chessTable>div:nth-of-type(20n+4):not(:nth-of-type(4)),
+.chessTable>div:nth-of-type(20n+15):not(:nth-of-type(95)),
+.chessTable>div:nth-of-type(20n+6):not(:nth-of-type(6)),
+.chessTable>div:nth-of-type(20n+17):not(:nth-of-type(97)),
+.chessTable>div:nth-of-type(20n+8):not(:nth-of-type(8)),
+.chessTable>div:nth-of-type(20n+19):not(:nth-of-type(99)) {
     background: #aaa;
 }
+
 .chessTable>div:nth-of-type(10n+2):not(:nth-of-type(2)):not(:nth-of-type(92)),
 .chessTable>div:nth-of-type(10n+3):not(:nth-of-type(3)):not(:nth-of-type(93)),
 .chessTable>div:nth-of-type(10n+4):not(:nth-of-type(4)):not(:nth-of-type(94)),
@@ -100,13 +133,15 @@
 .chessTable>div:nth-of-type(10n+6):not(:nth-of-type(6)):not(:nth-of-type(96)),
 .chessTable>div:nth-of-type(10n+7):not(:nth-of-type(7)):not(:nth-of-type(97)),
 .chessTable>div:nth-of-type(10n+8):not(:nth-of-type(8)):not(:nth-of-type(98)),
-.chessTable>div:nth-of-type(10n+9):not(:nth-of-type(9)):not(:nth-of-type(99)){
+.chessTable>div:nth-of-type(10n+9):not(:nth-of-type(9)):not(:nth-of-type(99)) {
     border-top: 1px solid black;
     border-left: 1px solid black;
 }
+
 .chessTable>div:nth-of-type(10n+9):not(:nth-of-type(9)):not(:nth-of-type(99)) {
     border-right: 1px solid black;
 }
+
 .chessTable>div:nth-of-type(n+82):not(:nth-of-type(n+90)) {
     border-bottom: 1px solid black;
 }
