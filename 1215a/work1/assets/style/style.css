@@ -1,0 +1,9 @@
+body {
+  color: #777;
+  background-color: #444444;
+}
+input[type="button"] {
+  border: 10px solid #867a7a;
+  border-radius: 4px;
+  background-color: grey;
+}

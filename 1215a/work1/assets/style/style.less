@@ -1,0 +1,13 @@
+@mainColor: #777;
+.roundBorder(@bw, @bs, @bc, @br) {
+    border: @bw @bs @bc;
+    border-radius: @br;
+}
+body {
+    color: @mainColor;
+    background-color: @mainColor - #333;
+}
+input[type="button"] {
+    .roundBorder(10px, solid, saturate(grey, 5%), 4px);
+    background-color: grey;
+}
