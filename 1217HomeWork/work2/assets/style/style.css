@@ -1,0 +1,109 @@
+@-webkit-keyframes animationUPDown {
+    from {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+    95% {
+        -webkit-transform: translateY(380px) scaleY(1) scaleX(1);
+                transform: translateY(380px) scaleY(1) scaleX(1);
+    }
+    to {
+        -webkit-transform: translateY(400px) scaleY(.8) scaleX(1.2);
+                transform: translateY(400px) scaleY(.8) scaleX(1.2);
+    }
+}
+
+@keyframes animationUPDown {
+    from {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+    95% {
+        -webkit-transform: translateY(380px) scaleY(1) scaleX(1);
+                transform: translateY(380px) scaleY(1) scaleX(1);
+    }
+    to {
+        -webkit-transform: translateY(400px) scaleY(.8) scaleX(1.2);
+                transform: translateY(400px) scaleY(.8) scaleX(1.2);
+    }
+}
+
+@-webkit-keyframes animationMove {
+    from {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+    }
+    to {
+        -webkit-transform: translateX(calc(100vw - 154px));
+                transform: translateX(calc(100vw - 154px));
+    }
+}
+
+@keyframes animationMove {
+    from {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+    }
+    to {
+        -webkit-transform: translateX(calc(100vw - 154px));
+                transform: translateX(calc(100vw - 154px));
+    }
+}
+
+@-webkit-keyframes shadow {
+    from {
+        -webkit-box-shadow: 0 0 20px 20px black;
+                box-shadow: 0 0 20px 20px black;
+        opacity: .2;
+        -webkit-transform: scaleY(.3) scaleX(.5);
+                transform: scaleY(.3) scaleX(.5);
+    }
+    to {
+        -webkit-box-shadow: 0 0 3px 3px black;
+                box-shadow: 0 0 3px 3px black;
+    }
+}
+
+@keyframes shadow {
+    from {
+        -webkit-box-shadow: 0 0 20px 20px black;
+                box-shadow: 0 0 20px 20px black;
+        opacity: .2;
+        -webkit-transform: scaleY(.3) scaleX(.5);
+                transform: scaleY(.3) scaleX(.5);
+    }
+    to {
+        -webkit-box-shadow: 0 0 3px 3px black;
+                box-shadow: 0 0 3px 3px black;
+    }
+}
+
+img {
+    position: relative;
+    z-index: 5;
+    -webkit-animation: animationUPDown 1s cubic-bezier(0.6, 0, 1, 1) infinite alternate;
+            animation: animationUPDown 1s cubic-bezier(0.6, 0, 1, 1) infinite alternate;
+}
+
+.main {
+    position: relative;
+    width: 154px;
+    height: 554px;
+    -webkit-animation: animationMove 5s linear infinite alternate;
+            animation: animationMove 5s linear infinite alternate;
+}
+
+.main::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: #000;
+    position: absolute;
+    bottom: 10px;
+    left: 23px;
+    border-radius: 50%;
+    z-index: 2;
+    -webkit-animation: shadow 1s cubic-bezier(0.6, 0, 1, 1) infinite alternate;
+            animation: shadow 1s cubic-bezier(0.6, 0, 1, 1) infinite alternate;
+}
