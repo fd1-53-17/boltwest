@@ -1,0 +1,31 @@
+.block {
+    width: 200px;
+    height: 150px;
+    background: #f00;
+}
+.cirkle {
+    width: 200px;
+    height: 200px;
+    background: #0f0;
+    border-radius: 50%
+}
+.treangle {
+    width: 0;
+    height: 0;
+    border:100px solid #00f;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+div:target {
+    display: block;
+}
+div:not(:target) {
+    display: none;
+}
+div:not(:target)~div:nth-of-type(3) {
+    display: block;
+}
+div:target~div:nth-of-type(3) {
+    display: none;
+}
