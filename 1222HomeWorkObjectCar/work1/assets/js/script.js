@@ -139,5 +139,5 @@ console.log('Самый старый авто', (garage[minAge.count]).name, ':'
     '\nРазница в возрасте', maxAge.value - minAge.value, 'лет',
     '\nСамый дешёвый авто', (garage[lowPrice.count]).name, ':', lowPrice.value, 'BTC',
     '\nСамый экономный авто', (garage[lowRate.count]).name, ':', lowRate.value, 'литров на 100км',
-    '\nСамый выгодный авто за 10лет эксплуотации', (garage[PriceRate.count]).name, ':', PriceRate.value, 'BTC',
+    '\nСамый выгодный авто за 10лет эксплуотации', (garage[PriceRate.count]).name, ':', (PriceRate.value).toFixed(3), 'BTC',
     '\nКоличество лет на покупку', (garage[maxPrice.count]).name, ':', maxPrice.value, 'BTC', maxPrice.value, 'Лет');
