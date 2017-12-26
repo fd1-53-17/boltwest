@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        var userArray = [];
+        var userElement;
+        for(;;){
+            userElement = prompt('Заполните массив');
+            if(userElement !== null){
+            userArray.push(userElement);
+            }else {
+                break;
+            }
+        }
+        for(;;){
+            if(userArray.length > 0){
+                console.log(userArray.pop());
+            }else {
+                break;
+            }
+        }
+    </script>
+</body>
+</html>
