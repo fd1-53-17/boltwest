@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/style/style.css" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <button id="myButton" onClick="button();">это очень кнопка</button>
+    <script>
+        alert("тарарам");
+        function button () {
+        var button = document.getElementById('myButton');
+        
+        console.log(button);
+        
+        button.width = "300";
+        button.style.hight = "150px";
+        button.className = "but";
+        }
+    </script>
+</body>
+</html>
